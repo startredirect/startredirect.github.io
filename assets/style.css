@@ -1,0 +1,49 @@
+h1 {
+  color: #202945;
+}
+
+u {
+  text-decoration-color: #6573FF;
+}
+
+p {
+  font-family: Inter,sans-serif;
+  color: #7f869f;
+}
+
+#urlAddress {
+  border: 1px solid #ced1dd;
+  border-radius: 2rem;
+  width: 400px;
+  padding: 10px 32px 13px 25px;
+}
+
+#urlAddress:focus {
+  box-shadow: 0 0 0 1pt #6573fd;
+  outline: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+
+.container {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#subButton {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='21' height='21' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.275 12.261l3.891 3.892' stroke='%237F869F' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M8.735 13.29a4.569 4.569 0 100-9.137 4.569 4.569 0 000 9.138z' stroke='%237F869F' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='square'/%3E%3C/svg%3E");
+}
+
+#subButton:focus, #subButton:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='21' height='21' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.275 12.261l3.891 3.892' stroke='%236573FF' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M8.735 13.29a4.569 4.569 0 100-9.137 4.569 4.569 0 000 9.138z' stroke='%236573FF' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='square'/%3E%3C/svg%3E");
+  outline: none;
+}
