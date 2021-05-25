@@ -1,4 +1,4 @@
-function getUserName() {
+function urlVisitor() {
 
 const https = "https://";
 const urlAddressValue = document.getElementById("urlAddress").value;
@@ -12,11 +12,11 @@ if (urlAddressValue.includes("http://")) {
 }
 
 else if (urlAddressValue.includes(https)) {
-    window.location.href = urlAddressValue;
+    window.open(urlAddressValue);
 }
 
 else {
-    window.location.href = https.concat(urlAddressValue);
+    window.open(https.concat(urlAddressValue));
   }
   
 }
@@ -24,9 +24,9 @@ else {
 const subButton = document.getElementById("subButton");
 const urlAddress = document.getElementById("urlAddress");
 
-subButton.addEventListener("click", getUserName, false);
+subButton.addEventListener("click", urlVisitor, false);
 urlAddress.addEventListener("keypress", function (e) {
     if (e.key === "Enter") {
-      getUserName();
+      urlVisitor();
     }
 });
