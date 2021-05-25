@@ -9,7 +9,6 @@ Think of Startredirect as a universal solution of that.
 - Accessibility has not been tested yet (mainly for screenreaders and legacy browsers).
 - Disclaimer for non-JavaScript users has not been added yet.
 - A GitHub icon redirecting to the Startredirect repository might (though probably not) be added (at an unspecified time).
-- This can also be used with MetaGer's variant of Anonymous View.
 
 # Important Message From Creator
 
